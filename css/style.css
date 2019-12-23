@@ -1,0 +1,309 @@
+
+  #footer {
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7in;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .bg {
+      /* The image used */
+      /* Full height */
+    height: 100%;
+      /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container a {
+    text-decoration: none;
+  }
+
+  .action-button {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #FFF;
+    text-decoration: none;
+    letter-spacing: 2px;
+    width: 15rem !important;
+  }
+  
+  .blue {
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+  }
+  
+  .animate {
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+  }
+  
+  .action-button:active {
+    text-decoration: none;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+  }
+  
+  .playGameBtns {
+    position: absolute;
+    top: 60%;
+    left: 39%;
+  }
+  
+  .btnDesign {
+    width: 100% !important;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    margin: 0 1rem;
+  }
+  
+  .gameOptions ul {
+    list-style: none;
+  }
+  
+  .gameOptions {
+    position: absolute;
+    top: 55%;
+    left: 42%;
+  }
+  
+  .gameOptions ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .gameBtnDesign {
+    width: 100% !important;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .gameOptions ul li a::after {
+    content: attr(data-tool-tip);
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,.8);
+    padding: .5em 2em;
+    color: white;
+    border-radius: 5px;
+    font-size: .8em;
+    white-space: nowrap;
+    transform: scale(0);
+    transform-origin: left;
+    transition: all .5s;
+  }
+  
+  .gameOptions ul li .option1::after {
+    top: 5%;
+    left: 108%;
+  }
+  
+  .gameOptions ul li .option2::after {
+    top: 30%;
+    left: 108%;
+  }
+  
+  .gameOptions ul li .option3::after {
+    top: 55%;
+    left: 108%;
+  }
+  
+  .gameOptions ul li .option4::after {
+    top: 80%;
+    left: 108%;
+  }
+  
+  .gameOptions ul li a:hover::after {
+    transform: scale(1);
+  }
+  
+  .content {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    color: #f2f2f2;
+    box-sizing: border-box;
+  }
+  
+  .content h3 {
+    letter-spacing: 2px;
+  }
+  
+  .content input[type="text"] {
+    margin-top: 1rem;
+    width: 100%;
+    color: black;
+    padding: 5px;
+    padding-right: 10px;
+    border: 2px solid blue;
+  }
+  
+  .content a {
+    margin-top: 1.5rem;
+    display: block;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+ }
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+ }
+ 
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 3.2em;
+    letter-spacing: 0.1em;
+ }
+ 
+ .main-title .thin {
+    font-weight: 100;
+ }
+ 
+ .thinfooter
+ {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #F9F1E9;
+  text-align: center;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+ }
+
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+  }
+
+.TransparentBox
+{
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    z-index: 999;
+    width: 70rem;
+    height: 70rem;
+    background-color: white;
+    opacity: 0.25;
+}
+
+.TransparentBox h3
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    top: 5%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.imgBox
+{
+    position: absolute;
+    top: 25%;
+    /*left: calc(50% - 300px);*/
+    left: 42%;
+    z-index: 999;
+    width: 30rem;
+    height: 25rem;
+}
+
+.imgBox img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.iconimgBox
+{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 999;
+    width: 40rem;
+    height: 25rem;
+}
+
+.pilot img
+{
+  position: absolute;
+  left:65%;
+  width:16%;
+  height: 22%;
+}
+
+.coPilots img
+{
+  position: absolute;
+  top:50%;
+  left:52%;
+  width:14%;
+  height: 20%;
+}
+.crew img
+{
+  position: absolute;
+  top:100%;
+  Left:35%;
+  width:12%;
+  height: 18%;
+}
+.passengers img
+{
+  position: absolute;
+  top:150%;
+  left:23%;
+  width:10%;
+  height: 16%;
+}
+
+.flyBtn a
+{
+  position: absolute;
+  top:190%;
+  left:20%;
+}

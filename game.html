@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Come Fly With Me</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style1.css"/>
+	</head>
+	<body>
+		<div class="demo">
+			<div class="content1">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+                    
+                    <div class="imgBox">
+                        <div id="jscopter-container"></div>
+
+				        <script src="js/cookies.js"></script>
+				        <script src="js/script.js"></script>
+				        <script>
+				            var options = {
+				                copter : {
+				                    height : 15,
+				                    width : 30
+				                },
+				                canvas : {
+				                    height : 900,
+				                    width : 1800,
+				                    refreshRate : 20
+				                }
+				            };
+
+				            jsCopter.init("jscopter", "jscopter-container", options);
+				        </script>
+                    </div>
+                    
+					<div id="footer" style="text-align: center">
+						<h1>
+							<span class="thinfooter">Plane Game based on the Ethereum Network</span>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js'></script>
+		<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js'></script>
+		<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js'></script>
+		<script  src="js/index.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/web3.min.js"></script>
+		<script src="js/truffle-contract.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

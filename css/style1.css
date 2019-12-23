@@ -1,0 +1,54 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    background: #fff;
+}
+
+p#customisable-link {
+    margin: 2em;
+}
+
+#jscopter-container {
+    position: relative;
+    margin: 2em;
+    width: 500px;
+    height: 300px;
+}
+
+#currentscorecontainer {
+    position:absolute;
+    top: 0px;
+    left: 0;
+    color:#fff;
+    padding-left : 10px;
+}
+
+#topscorecontainer {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    color:#fff;
+}
+
+#deathtext {
+    position:absolute;
+    left : 0px;
+    top: 870px;
+    margin: 0;
+    color:#fff;
+    font-weight:bold;
+    font-family:Georgia, Arial, sans-serif;
+    font-size : 1.8em;
+}
+
+.imgBox
+{
+    position: absolute;
+    top: 0px !important;
+    left: calc(50% - 920px) !important;
+    /*left: 42%;*/
+    z-index: 999;
+    /*width: 30rem;
+    height: 25rem;*/
+}
